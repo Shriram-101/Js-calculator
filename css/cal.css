@@ -1,0 +1,25 @@
+#container{
+
+    width: 197px;
+    background-color: burlywood;
+    border: 2px solid black;
+}
+
+
+.tabl button{
+    background-color: rgb(176, 179, 209);
+    width: 35px;
+    height: 32px;
+}
+
+table input{
+   width: 182px;
+   height: 30px;
+   font-size: larger;
+}
+
+#del{
+    width: 100px;
+    height: 32px;
+    margin-left: 40px;
+}

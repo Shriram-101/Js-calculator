@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/cal.css">
+    <title>Calculator</title>
+</head>
+<body>
+
+    <h2>JavaScript Standard Calculator</h2>
+    <div id="container">
+
+        <table>
+            <tr> <td><input id="input1" type="text"> </td> </tr>
+            <tr > 
+                <td class="tabl">
+                <button onclick="typer(0)"> 0 </button>
+                <button onclick="typer(1)"> 1 </button>
+                <button onclick="typer(2)"> 2 </button>
+                <button onclick="typer(3)"> 3 </button>
+                <button onclick="typer(4)"> 4 </button>
+            </td>
+        </tr>
+
+    <tr > 
+            <td class="tabl">
+                <button onclick="typer(5)"> 5 </button>
+                <button onclick="typer(6)"> 6 </button>
+                <button onclick="typer(7)"> 7 </button>
+                <button onclick="typer(8)"> 8 </button>
+                <button onclick="typer(9)"> 9 </button>
+            </td>
+    </tr>
+
+
+        <tr > 
+            <td class="tabl">
+                <button onclick="typer('+')"> + </button>
+                <button onclick="typer('-')"> - </button>
+                <button onclick="typer('/')"> / </button>
+                <button onclick="typer('*')"> * </button>
+                <button onclick="equal()"> = </button>
+            </td>
+        </tr>
+
+        <tr > 
+            <td class="tabl">
+                <button onclick="spec('log')"> log </button>
+                <button onclick="spec('square')"> squ </button>
+                <button onclick="spec('1/x')"> 1/x </button>
+                <button onclick="deci('.')"> . </button>
+                <button onclick="ac()"> AC </button>
+            </td>
+        </tr>
+
+
+        <tr > 
+            <td class="tabl">
+                <button id= 'del' onclick="del()"> Del </button>
+            </td>
+        </tr>
+
+        </table>
+    </div>
+    
+    <script src="./js/cal.js"></script>
+</body>
+</html>
